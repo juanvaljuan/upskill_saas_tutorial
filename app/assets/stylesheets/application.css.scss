@@ -61,6 +61,14 @@ h1, h2, h3 {
   font-weight: 800;
 }
 
+.navbar-nav > li {
+  float: right;
+
+}
+
+.navbar-nav > li > a {
+  padding-top: 0px;
+}
 .navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a,
 a {
