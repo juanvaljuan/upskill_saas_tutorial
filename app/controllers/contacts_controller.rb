@@ -12,7 +12,7 @@ def create
       flash[:danger] = @contact.errors.full_messages.join(", ")
       redirect_to new_contact_path
     end
-  end
+end
   
   private
     def contact_params
