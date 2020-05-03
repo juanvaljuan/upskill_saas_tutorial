@@ -60,19 +60,30 @@ h1, h2, h3 {
   font-weight: 800;
 }
 
-.navbar-nav > li {
-  float: right;
-}
-
 .navbar-nav > li > a {
   padding-top: 0px;
 }
+
+//Needed to align buttons in navigation
+.navbar-btn {
+  margin-top: -6px;
+}
+
 .navbar-default .navbar-brand, 
-.navbar-default .navbar-nav > li > a,
-a {
+.navbar-default .navbar-nav > li > a
+ {
   color: white;
   &:hover {
     color: white;
+    opacity: 0.75;
+    text-decoration: none;
+  }
+}
+
+a {
+  color: darkcyan;
+  &:hover {
+    color: darkcyan;
     opacity: 0.75;
     text-decoration: none;
   }
