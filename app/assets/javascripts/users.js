@@ -37,7 +37,7 @@ $(document).on('turbolinks:load', function(){
   //Validate expiration number
   if(!Stripe.card.validateExpiry(expMonth, expYear)) {
     error = true;
-    alert('The credit card number appears to be invalid');
+    alert('The expiration date appears to be invalid');
   }
   
   if (error) {
